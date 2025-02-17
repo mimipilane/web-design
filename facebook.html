@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFacebook - Login or Sign Up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe6f2; /* Light pink background */
+            text-align: center;
+        }
+        .container {
+            width: 100%;
+            max-width: 400px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #ff4da6; /* Dark pink title */
+            font-size: 32px;
+        }
+        h3 {
+            color: #d63384; /* Slightly darker pink */
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #d63384; /* Pink border */
+            border-radius: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #ff4da6; /* Pink button */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #e60073; /* Darker pink on hover */
+        }
+        .link {
+            margin-top: 10px;
+            display: block;
+            color: #ff4da6;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>MyFacebook </h2>
+
+    <div class="container">
+        <h3>Login</h3>
+        <form>
+            <input type="text" placeholder="Username or Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+            <a href="#" class="link">Forgot password?</a>
+        </form>
+    </div>
+
+    <div class="container">
+        <h3>Create an Account</h3>
+        <form>
+            <input type="text" placeholder="First Name" required>
+            <input type="text" placeholder="Last Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+
+</body>
+</html>
